@@ -6,9 +6,9 @@
 <body>  
 <div class="navbar">
     <ul>
-        <li><a href="index.php#about">ABOUT</a></li>
-        <li><a href="index.php#contact">CONTACT</a></li>
-        <li><a href="index.php#resources">RESOURCES</a></li>
+        <li><a href="home.php#about">ABOUT</a></li>
+        <li><a href="home.php#contact">CONTACT</a></li>
+        <li><a href="home.php#resources">RESOURCES</a></li>
         <li><a href="formvalidation.php">FORMS</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
