@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>My Profile</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="styles.css">
-</head>
 <body>
   <div class="navbar">
     <ul>
@@ -23,7 +16,7 @@
   <div id="about"class="about">
     <h1>I'm <span>Ced</span></h1>
     <p>I look forward to studying with you. I'm not good at anything in particular. I'll work hard to get along with everyone.</p>
-    <img src="cedced.jpg">
+    <img src="images/cedced.jpg">
 
   </div>
   <div id="contact" class="contact">
@@ -44,8 +37,8 @@
   <div id="resources"class="resources">
     <ul>
       <h1>Resources:</h1>
-      <li><div class="img1"><a href="https://w3schools.com" target="_blank"><img src="w3logo.jpg"></a><p>w3schools.com</p></div></li>
-      <li><div class="img2"><a href="https://codeacademy.com" target="_blank"><img src="codeacademylogo.jpg"></a><p>codeacademy.com</p></div></li>
+      <li><div class="img1"><a href="https://w3schools.com" target="_blank"><img src="images/w3logo.jpg"></a><p>w3schools.com</p></div></li>
+      <li><div class="img2"><a href="https://codeacademy.com" target="_blank"><img src="images/codeacademylogo.jpg"></a><p>codeacademy.com</p></div></li>
     </ul><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </div>
   </body>
