@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
-  <link rel="stylesheet" href="formvalidation.css">
+<link rel = "stylesheet" type = "text/css" href = <?php echo base_url('css/fromvalidation.css'); ?>>
 </head>
 <body>  
 <div class="navbar">
     <ul>
-        <li><a href="home.php#about">ABOUT</a></li>
-        <li><a href="home.php#contact">CONTACT</a></li>
-        <li><a href="home.php#resources">RESOURCES</a></li>
-        <li><a href="formvalidation.php">FORMS</a></li>
+        <li><a href="home#about">ABOUT</a></li>
+        <li><a href="home#contact">CONTACT</a></li>
+        <li><a href="home#resources">RESOURCES</a></li>
+        <li><a href="formvalidation">FORMS</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
           What time is it?</button>
