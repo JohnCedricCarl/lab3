@@ -9,8 +9,8 @@
     <ul>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#resources">RESOURCES</a></li>
-        <li><a href="formvalidation.php">FORMS</a></li>
+        <li><a href="home#resources">RESOURCES</a></li>
+        <li><a href="formvalidation">FORMS</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
           What time is it?</button>
