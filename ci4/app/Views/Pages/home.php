@@ -5,19 +5,6 @@
 <meta charset="UTF-8">
 <link rel = "stylesheet" type = "text/css" href = <?php echo base_url('css/styles.css'); ?>>
 </head>
-<div class="navbar">
-    <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="home#resources">RESOURCES</a></li>
-        <li><a href="formvalidation">FORMS</a></li>
-        <li><button type="button"
-          onclick="document.getElementById('demo').innerHTML = Date()">
-          What time is it?</button>
-          
-          <p id="demo"></p></li>
-      </ul>
-  </div>
 <body>
   <div class="navbar">
     <ul>
@@ -47,7 +34,7 @@
         <li><a href="https://instagram.com" target="_blank" class="instagram">instagram</a></li>
     </ul>
     <h1> or leave a message ^^.</h1>
-    <form action="welcome" method="post">
+    <form action="welcome.php" method="post">
       Name: <input type="text" name="name"><br>
       Message: <input type="text" name="message"><br>
       <input type="submit">
