@@ -51,7 +51,8 @@ class Filters extends BaseConfig
      * permits any HTTP method to access a controller. Accessing the controller
      * with a method you don’t expect could bypass the filter.
      */
-    public $methods = [
+
+    public array $methods = [
         'post' => ['csrf'],
     ];
 
