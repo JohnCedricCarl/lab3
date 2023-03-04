@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class NewsModel extends Model
 {
     protected $table = 'jbmolina_news';
+    protected $allowedFields = ['title', 'slug', 'body'];
 
  public function getNews($slug = false)
     {
