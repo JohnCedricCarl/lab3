@@ -1,22 +1,3 @@
-<!DOCTYPE HTML>  
-<html>
-<head>
-<link rel = "stylesheet" type = "text/css" href = <?php echo base_url('css/formvalidation.css'); ?>>
-</head>
-<body>  
-<div class="navbar">
-    <ul>
-        <li><a href="home#about">ABOUT</a></li>
-        <li><a href="home#contact">CONTACT</a></li>
-        <li><a href="home#resources">RESOURCES</a></li>
-        <li><a href="formvalidation">FORMS</a></li>
-        <li><button type="button"
-          onclick="document.getElementById('demo').innerHTML = Date()">
-          What time is it?</button>
-          
-          <p id="demo"></p></li>
-      </ul>
-  </div>
 <br><br><br><br><br><br><br><br><br><br><br>
 <?php
 
