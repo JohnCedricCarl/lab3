@@ -1,4 +1,4 @@
-<div class="navbar">
+  <div class="navbar">
     <ul>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
@@ -13,6 +13,7 @@
       </ul>
   </div>
   <div id="about"class="about">
+    <br><br><br><br>
     <h1>I'm <span>Ced</span></h1>
     <p>I look forward to studying with you. I'm not good at anything in particular. I'll work hard to get along with everyone.</p>
     <img src="images/cedced.jpg">
