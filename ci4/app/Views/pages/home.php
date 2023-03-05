@@ -3,7 +3,6 @@
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#resources">RESOURCES</a></li>
-        <li><a href="formvalidation">FORMS</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/news">NEWS</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/news/create">CREATE NEWS</a></li>
         <li><button type="button"
@@ -26,12 +25,6 @@
         <li><a href="https://twitter.com" target="_blank" class="twitter">twitter</a></li>
         <li><a href="https://instagram.com" target="_blank" class="instagram">instagram</a></li>
     </ul>
-    <h1> or leave a message ^^.</h1>
-    <form action="welcome.php" method="post">
-      Name: <input type="text" name="name"><br>
-      Message: <input type="text" name="message"><br>
-      <input type="submit">
-      </form>
   </div>
   <br><br><br><br><br><br><br><br><br><br><br><br>
   <div id="resources"class="resources">
