@@ -110,10 +110,14 @@ body {
         padding: 14px 16px;
         text-decoration: none;
       }
+      .resources li p{
+        color:antiquewhite;
+      }
       
       .resources h1 {
         text-align: center;
         margin: auto;
+        color: antiquewhite;
       }
       .resources img {
         max-width: 100px;
