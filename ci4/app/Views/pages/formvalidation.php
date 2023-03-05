@@ -4,8 +4,8 @@
         <li><a href="home#contact">CONTACT</a></li>
         <li><a href="home#resources">RESOURCES</a></li>
         <li><a href="formvalidation">FORMS</a></li>
-        <li><a href="news/index">NEWS</a></li>
-        <li><a href="news/create">CREATE NEWS</a></li>
+        <li><a href="/news">NEWS</a></li>
+        <li><a href="/news/create">CREATE NEWS</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
           What time is it?</button>
