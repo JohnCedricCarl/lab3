@@ -1,10 +1,10 @@
 <div class="navbar">
     <ul>
-    <li><a href="/pages/home#about">ABOUT</a></li>
-        <li><a href="/pages/home#contact">CONTACT</a></li>
-        <li><a href="/pages/home#resources">RESOURCES</a></li>
-        <li><a href="/pages/formvalidation">FORMS</a></li>
-        <li><a href="index">NEWS</a></li>
+        <li><a href="../pages/home#about">ABOUT</a></li>
+        <li><a href="../pages/home#contact">CONTACT</a></li>
+        <li><a href="../pages/home#resources">RESOURCES</a></li>
+        <li><a href="../pages/formvalidation">FORMS</a></li>
+        <li><a href="/news">NEWS</a></li>
         <li><a href="create">CREATE NEWS</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
