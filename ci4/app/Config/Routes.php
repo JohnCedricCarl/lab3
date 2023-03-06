@@ -35,7 +35,6 @@ use App\Controllers\News;
 use App\Controllers\Pages;
 use App\Controllers\Visitors
 
-$routes->match(['get', 'post'], 'visitors/create', [Visitors::class, 'create']);
 $routes->get('visitors/(:segment)', [Visitors::class, 'view']);
 $routes->get('visitors', [Visitors::class, 'index']);
 
