@@ -29,5 +29,5 @@
     <textarea name="body" cols="45" rows="4"><?= set_value('body') ?></textarea>
     <br>
 
-    <input type="submit" name="submit" value="Create news item">
+    <input type="submit" name="submit" value="Create visitors entry">
 </form>
