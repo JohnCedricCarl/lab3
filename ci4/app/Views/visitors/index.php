@@ -19,12 +19,10 @@
 
     <?php foreach ($visitors as $visitors_item): ?>
 
-        <h3><?= esc($visitors_item['title']) ?></h3>
-
+        
+        <h3><?= esc($visitors_item['fname']) ?>
         <div class="main">
-            <?= esc($visitors_item['body']) ?>
-        </div>
-        <p><a href="news/<?= esc($visitors_item['slug'], 'url') ?>">View article</a></p>
+        <p>Message: <?= esc($visitors_item['message']) ?> <br>
 
     <?php endforeach ?>
 

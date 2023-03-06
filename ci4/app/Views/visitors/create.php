@@ -3,7 +3,7 @@
         <li><a href="/~jbmolina/lab3/ci4/public/home#about">ABOUT</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/home#contact">CONTACT</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/home#resources">RESOURCES</a></li>
-        <li><a href="visitors/create">CREATE ENTRY</a></li>
+        <li><a href="create">CREATE ENTRY</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/visitors">VISITORS LIST</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
@@ -21,12 +21,12 @@
 <form action="create" method="post">
     <?= csrf_field() ?>
 
-    <label for="title">Name</label>
-    <input type="input" name="title" value="<?= set_value('title') ?>">
+    <label for="fname">Name</label>
+    <input type="input" name="fname" value="<?= set_value('fname') ?>">
     <br>
 
-    <label for="body">Message</label>
-    <textarea name="body" cols="45" rows="4"><?= set_value('body') ?></textarea>
+    <label for="message">Message</label>
+    <textarea name="message" cols="45" rows="4"><?= set_value('message') ?></textarea>
     <br>
 
     <input type="submit" name="submit" value="Create entry">

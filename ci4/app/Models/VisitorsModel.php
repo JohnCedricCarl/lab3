@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class VisitorsModel extends Model
 {
     protected $table = 'jbmolina_visitors';
-    protected $allowedFields = ['title', 'slug', 'body'];
+    protected $allowedFields = ['fname', 'message'];
 
  public function getVisitors($slug = false)
     {
