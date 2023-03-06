@@ -3,7 +3,7 @@
         <li><a href="/~jbmolina/lab3/ci4/public/home#about">ABOUT</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/home#contact">CONTACT</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/home#resources">RESOURCES</a></li>
-        <li><a href="#">CREATE ENTRY</a></li>
+        <li><a href="create">CREATE ENTRY</a></li>
         <li><a href="/~jbmolina/lab3/ci4/public/visitors">VISITORS LIST</a></li>
         <li><button type="button"
           onclick="document.getElementById('demo').innerHTML = Date()">
