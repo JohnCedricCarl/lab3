@@ -22,7 +22,7 @@
         
         <p><?= esc($visitors_item['fname']) ?>
         <div class="main">
-        <p>Message: <?= esc($visitors_item['message']) ?> <br>
+        <p>Message: <?= esc($visitors_item['message']) ?> <br><br>
 
     <?php endforeach ?>
 
