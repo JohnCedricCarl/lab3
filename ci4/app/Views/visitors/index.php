@@ -20,7 +20,7 @@
     <?php foreach ($visitors as $visitors_item): ?>
 
         
-        <h3><?= esc($visitors_item['fname']) ?>
+        <p><?= esc($visitors_item['fname']) ?>
         <div class="main">
         <p>Message: <?= esc($visitors_item['message']) ?> <br>
 
