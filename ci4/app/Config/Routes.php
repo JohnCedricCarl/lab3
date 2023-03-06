@@ -33,7 +33,11 @@ $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
 use App\Controllers\Pages;
-use App\Controllers\Visitors
+use App\Controllers\Visitors;
+
+$routes->match(['get', 'post'], 'visitors/create', [Visitors::class, 'create']);
+$routes->get('visitors/(:segment)', [Visitors::class, 'view']);
+$routes->get('visitors', [Visitors::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);
